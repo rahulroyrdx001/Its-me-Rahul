@@ -1,0 +1,163 @@
+.home{
+    height: 100vh;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.autotypetxt{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:50%
+    
+}
+.mynav{
+    width: 100%;
+    height:7vh;
+    font-size: 1.3rem;
+    background:linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    opacity: 1;
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    
+}
+.rahul{
+    font-size: 1.15rem;
+    margin-left: 3%;
+}
+
+.navmenu{
+    display: flex;
+    justify-content: space-evenly;
+    width: 15%;
+    font-size: 1.7rem;
+    
+}
+.navhome{
+    
+    transition: all .2s ease-in-out;
+}
+.navhome:hover{
+    color:#65E1E7;
+    transform: scale(1.4);
+}
+.navabout{
+    transition: all .2s ease-in-out; 
+}
+.navabout:hover{
+    color: #65E1E7;
+    transform: scale(1.4);
+}
+.navskill{
+    transition: all .2s ease-in-out; 
+}
+.navskill:hover{
+    color: #65E1E7;
+    transform: scale(1.4);
+}
+.navexp{
+    transition: all .2s ease-in-out; 
+   
+}
+.navexp:hover{
+    color: #65E1E7;
+    /* transition-delay: 0.3s; */
+    transform: scale(1.4) rotate(180deg);
+}
+.navcontact{
+    transition: all .2s ease-in-out; 
+}
+.navcontact:hover{
+    color:#65E1E7;
+    transform: scale(1.4);
+}
+/* .menu{
+
+} */
+
+/* <------- this is for Dark mode -------> */
+
+label{
+    width: 2.1rem;
+    height: 2.1rem;
+    margin-right: 3%;
+    border-radius: 50%;
+    font-size: 1.7rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+input{
+    position: absolute;
+    opacity: 0;
+}
+.sun{
+    font-size: 1.7rem;
+    filter: drop-shadow(0 0 2px rgba(0,0,0,.7));
+    position: absolute;
+    transform: scale(0);
+    transition: 1s ease;
+}
+input:checked~.sun{
+    transition-delay: 0.3s;
+    transform:  scale(1) rotate(360deg);
+}
+.moon{
+    font-size: 1.7rem;
+    filter: drop-shadow(0 0 2px rgba(0,0,0,.7));
+    transition: 1s ease;
+}
+input:checked~.moon{
+    transition-delay: 0s;
+    transform: rotate(360deg) scale(0);
+}
+.toggel{
+    position: absolute;
+    display: block;
+    width: 2.1rem;
+    height: 2.1rem;
+    background-color: #080C17;
+    border-radius: 50%;
+    box-shadow: 
+    inset 0 8px 10px rgba(0, 0, 0, 0.1),
+    inset 0 8px 8px rgba(0, 0, 0, 0.1),
+    inset 0 -4px 4px rgba(0, 0, 0, 0.1);
+    z-index: -1;
+    transition: 1s;
+}
+input:checked~.toggel{
+    background-color: #65E1E7;
+}
+.collapmenu{
+    opacity: 1;
+}
+
+/* <------- this is for Dark mode -------> */
+
+@media (max-width: 300px){
+    .mynav{
+        width: 100%;
+        height: 7vh;
+        background:pink;
+        opacity: 1;
+        display: flex;
+        position: fixed;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        color: white;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px)
+    }
+
+}
