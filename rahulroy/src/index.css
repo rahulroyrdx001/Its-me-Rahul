@@ -1,9 +1,11 @@
 body{
   background-color: #00040F;
+  /* background-color: #f0fff0; */
   color: beige;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
   margin: 0px;
   padding: 0px;
+  scroll-behavior: smooth;
 }

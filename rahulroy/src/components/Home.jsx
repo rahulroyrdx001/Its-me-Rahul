@@ -7,7 +7,7 @@ import { FaReact } from "react-icons/fa";
 import { MdMail } from "react-icons/md";
 import { HiMiniMoon } from "react-icons/hi2";
 import { TbSunFilled } from "react-icons/tb";
-import { GrCodeSandbox } from "react-icons/gr";
+
 export default function Home() {
   return (
     <div className={style.home}>
@@ -19,6 +19,7 @@ export default function Home() {
         <a>Experience</a>
         <a>Contact</a> */}
         {/* <div className={style.rahul}><span style={{fontSize:"2.5rem"}}>&lt;</span> Rahul Roy /<span style={{fontSize:"2.5rem"}}>&gt;</span></div> */}
+        
         <div className={style.rahul}>
           <span style={{ fontSize: "1.3rem" }}>&lt;/&gt;</span>rahul roy
         </div>
@@ -37,6 +38,11 @@ export default function Home() {
           <span className={style.toggel}></span>
         </label>
         {/* <div><GrCodeSandbox className={style.collapmenu} /></div> */}
+      </div>
+      <div className={style.elementbg}>
+        <div className={style.elementbg1}></div>
+        <div className={style.elementbg2}></div>
+        <div className={style.elementbg3}></div>
       </div>
 
       <span className={style.autotypetxt}>
