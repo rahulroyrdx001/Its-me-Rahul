@@ -57,3 +57,15 @@ img{
     align-items: center;
     
 }
+.conatcticons{
+    width:30%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    position: relative;
+    font-size: 130%;
+    top: 20%;
+    text-decoration: none;
+    color: #4d4d4d;
+}

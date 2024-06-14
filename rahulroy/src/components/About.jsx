@@ -1,8 +1,13 @@
 import style from "../Styling/about.module.css";
 import pic from "../components/mypic.png";
 import Tilty from "react-tilty";
+import { FaGithub } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa6";
+import { AiFillInstagram } from "react-icons/ai";
+import { IoMdMail } from "react-icons/io";
+import { IoDocumentAttach } from "react-icons/io5";
+import { FaXTwitter } from "react-icons/fa6";
 export default function About() {
- 
   return (
     <div className={style.about}>
       <div className={style.aboutwraper}>
@@ -47,7 +52,6 @@ export default function About() {
                 fontSize: "100%",
                 fontFamily: "Poppins",
                 fontWeight: "500",
-                cursor: "default",
               }}
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
@@ -58,7 +62,26 @@ export default function About() {
               dolorum accusamus consectetur magni est necessitatibus.
             </span>
           </div>
-          <div className={style.conatcticons}></div>
+          <div className={style.conatcticons}>
+            <a href="https://github.com/rahulroyrdx001">
+              <FaGithub />
+            </a>
+            <a href="https://www.linkedin.com/in/rahul-roy-1306/">
+              <FaLinkedin />
+            </a>
+            <a href="https://twitter.com/RroyTech">
+              <FaXTwitter />
+            </a>
+            <a href="https://www.instagram.com/rahulroy___13/">
+              <AiFillInstagram />
+            </a>
+            <a href="connect.royrahul@gmail.com">
+              <IoMdMail />
+            </a>
+            <a href="https://drive.google.com/file/d/12wd1Dt_dEGYW49K65_TnGuBMjkkUkkYR/view?usp=sharing">
+              <IoDocumentAttach />
+            </a>
+          </div>
         </div>
       </div>
     </div>
