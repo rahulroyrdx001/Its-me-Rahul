@@ -13,7 +13,7 @@ export default function About() {
       <div className={style.aboutwraper}>
         <Tilty style={{ transformStyle: "preserve-3d" }}>
           <div className={style.profilebox}>
-            <img src={pic}></img>
+            <img className={style.rahulpic} src={pic}></img>
             <div style={{ transform: "translateZ(50px)" }}>
               <span style={{ fontSize: "3rem" }}>Rahul Roy</span>
             </div>

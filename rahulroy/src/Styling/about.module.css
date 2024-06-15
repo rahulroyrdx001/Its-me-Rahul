@@ -3,8 +3,8 @@
     width: 100%;
 }
 .profilebox{
-    width: 120%;
-    height: 60vh;
+    width: 110%;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,7 +29,7 @@
     z-index: -1;
     
 }
-img{
+.rahulpic{
     border-radius: 50%;
     height: 70%;
     

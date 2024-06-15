@@ -8,11 +8,101 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 .wrapper{
+    margin-left: 5%;
     width: 70%;
     height: 70vh;
-    background-color: aquamarine;
+    background-color: #00040F;
+    overflow: hidden;
+    mask-image: linear-gradient(
+        to right,
+        hsl(0 0% 0% / 0),
+        hsl(0 0% 0% / 1) 10%,
+        hsl(0 0% 0% / 1) 90%,
+        hsl(0 0% 0% / 0)
+      );
+}
+.marquee{
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    overflow: hidden;
+    user-select: none;
+}
+.marquee1{
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: row;
+    justify-content: space-around;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    animation: scrollX 30s linear infinite;
+    
+
+}
+.marquee2{
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: row;
+    justify-content: space-around;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    animation: scrollX 30s linear infinite;
+    animation-direction: reverse;
+    animation-delay: -3s;
+    
+
+}
+.marquee3{
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: row;
+    justify-content: space-around;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    animation: scrollX 30s linear infinite;
+    animation-delay: -5s;
+
+}
+.marquee4{
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: row;
+    justify-content: space-around;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    animation: scrollX 30s linear infinite;
+    animation-direction: reverse;
+    animation-delay: -1s;
+    
+}
+img{
+    height: 70%;
+    
+}
+.skilllogos{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(135deg,rgba(255, 255, 255,.3),rgba(255, 255, 255,.1));
+    border-radius: 16px;
+    box-shadow: 0 1px 24px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.22);
+}
+
+@keyframes scrollX{
+    from {
+        left: translateX(0);
+      }
+      to {
+        transform: translateX(-100%);
+      }
 }
