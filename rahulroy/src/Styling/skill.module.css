@@ -12,7 +12,6 @@
     align-items: center;
 }
 .wrapper{
-    margin-left: 5%;
     width: 70%;
     height: 70vh;
     background-color: #00040F;
@@ -24,6 +23,10 @@
         hsl(0 0% 0% / 1) 90%,
         hsl(0 0% 0% / 0)
       );
+    z-index: -1;
+    animation: apper linear;
+    animation-timeline: view();
+    animation-range: entry 0;
 }
 .marquee{
     display: flex;
@@ -97,6 +100,12 @@ img{
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.22);
 }
+.shine{
+    z-index: -1;
+    animation: apper linear;
+    animation-timeline: view();
+    animation-range: entry 0;
+}
 
 @keyframes scrollX{
     from {
@@ -105,4 +114,15 @@ img{
       to {
         transform: translateX(-100%);
       }
+}
+
+@keyframes apper{
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
 }

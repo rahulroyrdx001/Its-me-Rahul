@@ -25,7 +25,6 @@ import jira from "../logos/jira.png";
 import ga from "../logos/ganalytic.png";
 
 export default function Skill() {
-  
   const row1 = [
     { id: "img1", src: html, name: " Html" },
     { id: "img2", src: css, name: " Css" },
@@ -36,7 +35,7 @@ export default function Skill() {
   ];
   const row2 = [
     { id: "img7", src: node, name: " Node Js" },
-    { id: "img8", src: exp, name: " Express Js" },
+    { id: "img8", src: exp, name: "   Express Js" },
     { id: "img9", src: mongo, name: " Mongo DB" },
     { id: "img10", src: redux, name: " Redux" },
     { id: "img11", src: vite, name: " Vite" },

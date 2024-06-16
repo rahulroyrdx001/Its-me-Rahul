@@ -27,6 +27,9 @@
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.22);
     z-index: -1;
+    animation: apper linear;
+    animation-timeline: view();
+    animation-range: entry 0;
     
 }
 .rahulpic{
@@ -39,6 +42,9 @@
     height: 70vh;
     display: flex;
     flex-direction: column;
+    animation: apper linear;
+    animation-timeline: view();
+    animation-range: entry 0;
     
     
 }
@@ -68,4 +74,14 @@
     top: 20%;
     text-decoration: none;
     color: #4d4d4d;
+}
+@keyframes apper{
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
 }

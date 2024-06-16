@@ -1,6 +1,6 @@
-
+import style from "../Styling/project.module.css";
 export default function Project() {
   return (
-    <div>Project</div>
+    <div className={style.project}>Project</div>
   )
 }

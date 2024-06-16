@@ -11,8 +11,8 @@ function App() {
      <Home></Home>
      <About></About>
      <Skill></Skill>
-     <Project></Project>
      <ExperienceAchivment></ExperienceAchivment>
+     <Project></Project>
      <Contact></Contact>
     </div>
   );

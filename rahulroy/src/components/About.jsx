@@ -7,6 +7,7 @@ import { AiFillInstagram } from "react-icons/ai";
 import { IoMdMail } from "react-icons/io";
 import { IoDocumentAttach } from "react-icons/io5";
 import { FaXTwitter } from "react-icons/fa6";
+
 export default function About() {
   return (
     <div className={style.about}>
@@ -75,7 +76,7 @@ export default function About() {
             <a href="https://www.instagram.com/rahulroy___13/">
               <AiFillInstagram />
             </a>
-            <a href="connect.royrahul@gmail.com">
+            <a href="mailto:connect.royrahul@gmail.com">
               <IoMdMail />
             </a>
             <a href="https://drive.google.com/file/d/12wd1Dt_dEGYW49K65_TnGuBMjkkUkkYR/view?usp=sharing">
