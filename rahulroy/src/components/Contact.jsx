@@ -8,7 +8,7 @@ export default function Contact() {
   return (
     <div className={style.contact}>
       <div className={style.wrapper}>
-        Contact
+        <span style={{fontSize:"1.8rem"}}>CONTACT</span>
         <h3>
           Thank you for your valuable time and patience; it's greatly
           appreciated.

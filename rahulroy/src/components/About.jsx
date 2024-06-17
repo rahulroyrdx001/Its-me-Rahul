@@ -43,7 +43,7 @@ export default function About() {
                 fontWeight: "600",
               }}
             >
-              Developer is on a mission
+              Developer is on a mission 🚀 
             </span>
           </div>
           <div className={style.light}></div>
@@ -55,12 +55,7 @@ export default function About() {
                 fontWeight: "500",
               }}
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-              possimus aliquid eos dignissimos consequuntur hic molestias, esse
-              accusamus doloribus corrupti nisi deserunt inventore cum
-              repudiandae, iure, ut enim ratione atque ad? Libero quos vero, in
-              sed nam eos itaque inventore cum, iure dignissimos, nostrum
-              dolorum accusamus consectetur magni est necessitatibus.
+              Hello, I'm Rahul Roy, a dedicated Full Stack Developer with a zeal for crafting scalable and intuitive web applications. My drive stems from a desire to devise sophisticated solutions for intricate challenges. As a self-motivated and inquisitive programmer, I thrive on unraveling complex, real-world problems. When I'm not immersed in the tech world, you'll find me indulging in my passion for cricket—playing with fervor or engrossed in the thrill of the game. Cricket is more than a sport to me; it's a source of immense joy and excitement."
             </span>
           </div>
           <div className={style.conatcticons}>

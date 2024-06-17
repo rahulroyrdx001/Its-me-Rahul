@@ -102,6 +102,7 @@ img{
 }
 .shine{
     z-index: -1;
+    color: #808080;
     animation: apper linear;
     animation-timeline: view();
     animation-range: entry 0;

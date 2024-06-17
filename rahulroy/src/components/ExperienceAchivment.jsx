@@ -3,6 +3,17 @@ export default function ExperienceAchivment() {
   return (
     <div className={style.exper}>
       {/* <div>Milestons Achived</div> */}
+      <div className={style.heading}>
+        <span
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          MILESTONE'S ACHIVED
+        </span>
+      </div>
       <div class={style.timeline}>
         <div class={style.outer}>
           <div class={style.card}>
