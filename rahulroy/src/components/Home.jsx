@@ -7,6 +7,7 @@ import { FaReact } from "react-icons/fa";
 import { MdMail } from "react-icons/md";
 import { HiMiniMoon } from "react-icons/hi2";
 import { TbSunFilled } from "react-icons/tb";
+import { RiBox3Fill } from "react-icons/ri";
 
 export default function Home() {
   return (
@@ -19,12 +20,12 @@ export default function Home() {
         <a>Experience</a>
         <a>Contact</a> */}
         {/* <div className={style.rahul}><span style={{fontSize:"2.5rem"}}>&lt;</span> Rahul Roy /<span style={{fontSize:"2.5rem"}}>&gt;</span></div> */}
-        
+
         <div className={style.rahul}>
           <span style={{ fontSize: "1.3rem" }}>&lt;/&gt;</span>rahul roy
         </div>
         <div className={style.navmenu}>
-          <HiHome className={style.navhome}/>
+          <HiHome className={style.navhome} />
           <IoPerson className={style.navabout} />
           <FaDev className={style.navskill} />
           <FaReact className={style.navexp} />
@@ -37,7 +38,9 @@ export default function Home() {
           <HiMiniMoon className={style.moon} />
           <span className={style.toggel}></span>
         </label>
-        {/* <div><GrCodeSandbox className={style.collapmenu} /></div> */}
+        <label style={{ display: "none" }}>
+          <RiBox3Fill />
+        </label>
       </div>
       <div className={style.elementbg}>
         <div className={style.elementbg1}></div>

@@ -43,7 +43,7 @@ export default function About() {
                 fontWeight: "600",
               }}
             >
-              Developer is on a mission 🚀 
+              The Developer is on a mission 🚀
             </span>
           </div>
           <div className={style.light}></div>
@@ -53,9 +53,21 @@ export default function About() {
                 fontSize: "100%",
                 fontFamily: "Poppins",
                 fontWeight: "500",
+                color: "#5E6571",
               }}
             >
-              Hello, I'm Rahul Roy, a dedicated Full Stack Developer with a zeal for crafting scalable and intuitive web applications. My drive stems from a desire to devise sophisticated solutions for intricate challenges. As a self-motivated and inquisitive programmer, I thrive on unraveling complex, real-world problems. When I'm not immersed in the tech world, you'll find me indulging in my passion for cricket—playing with fervor or engrossed in the thrill of the game. Cricket is more than a sport to me; it's a source of immense joy and excitement."
+              Hello, I'm Rahul Roy, a passionate{" "}
+              <span style={{ color: "orangered", fontWeight: "500" }}>
+                Full Stack Developer
+              </span>{" "}
+              dedicated to crafting scalable and intuitive web applications. My
+              drive is fueled by a love for solving intricate challenges with
+              sophisticated solutions. As a self-motivated and inquisitive
+              programmer, I thrive on untangling complex, real-world problems.
+              When I'm not navigating the digital realm, you'll find me immersed
+              in the captivating world of books—devouring pages with fervor or
+              losing myself in the thrill of a good story. To me, reading is not
+              just a hobby; it's a wellspring of joy and inspiration.
             </span>
           </div>
           <div className={style.conatcticons}>

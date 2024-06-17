@@ -105,21 +105,21 @@
     transition: all .2s ease-in-out;
 }
 .navhome:hover{
-    color:#65E1E7;
+    color: orangered;
     transform: scale(1.4);
 }
 .navabout{
     transition: all .2s ease-in-out; 
 }
 .navabout:hover{
-    color: #65E1E7;
+    color: orangered;
     transform: scale(1.4);
 }
 .navskill{
     transition: all .2s ease-in-out; 
 }
 .navskill:hover{
-    color: #65E1E7;
+    color: orangered;
     transform: scale(1.4);
 }
 .navexp{
@@ -127,7 +127,7 @@
    
 }
 .navexp:hover{
-    color: #65E1E7;
+    color: orangered;
     /* transition-delay: 0.3s; */
     transform: scale(1.4) rotate(180deg);
 }
@@ -135,7 +135,7 @@
     transition: all .2s ease-in-out; 
 }
 .navcontact:hover{
-    color:#65E1E7;
+    color: orangered;
     transform: scale(1.4);
 }
 /* .menu{
