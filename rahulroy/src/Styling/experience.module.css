@@ -11,7 +11,7 @@
 .heading{
   width: 100%;
   color: #808080;
-  font-size: 3.5rem;
+  font-size: 3vw;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   z-index: -1;
@@ -85,6 +85,20 @@
     .card:nth-child(odd)::before {
       top: -5px;
       bottom: -5px;
+    }
+  }
+  @media (max-width:320px){
+    .heading{
+      width: 100%;
+      color: #808080;
+      font-size: 6vw;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      z-index: -1;
+      animation: apper linear;
+      animation-timeline: view();
+      animation-range: entry 0;
+              
     }
   }
   

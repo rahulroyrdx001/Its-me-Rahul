@@ -328,3 +328,37 @@ input:checked~.toggel{
   75%{ left:50px;top: 100px;}
   100%{ left:0px;top: 0px;}
 }
+@media (max-width:320px){
+  .navmenu{
+    display: none;   
+}
+.rahul {
+  padding: 10px 50px;
+  font-size: 1.15rem;
+  margin-left: 0%;
+  transform: translateX(-40px);
+  color: #fff;
+  background: linear-gradient(to right, #4d4d4d 0, #fff 10%, #4d4d4d 20%);
+  background-position: 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 4s infinite linear;
+  animation-fill-mode: forwards;
+  -webkit-text-size-adjust: none;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 180px;
+  }
+  100% {
+    background-position: 180px;
+  }
+}
+
+}

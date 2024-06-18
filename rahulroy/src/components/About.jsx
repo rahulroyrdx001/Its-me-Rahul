@@ -19,43 +19,22 @@ export default function About() {
               <span style={{ fontSize: "3rem" }}>Rahul Roy</span>
             </div>
             <div>
-              <span style={{ fontSize: "1rem" }}>Fullstack Developer</span>
+              <span className={style.fullstack}>Fullstack Developer</span>
             </div>
           </div>
         </Tilty>
         <div className={style.descrip}>
           <div>
-            <span
-              style={{
-                fontSize: "300%",
-                fontFamily: "Poppins",
-                fontWeight: "600",
-              }}
-            >
-              Fullstack Web developer
-            </span>
+            <span className={style.fdev}>Fullstack Web developer</span>
           </div>
           <div>
-            <span
-              style={{
-                fontSize: "200%",
-                fontFamily: "Poppins",
-                fontWeight: "600",
-              }}
-            >
+            <span className={style.mission}>
               The Developer is on a mission 🚀
             </span>
           </div>
-          <div className={style.light}></div>
+
           <div style={{ position: "relative", top: "10%" }}>
-            <span
-              style={{
-                fontSize: "100%",
-                fontFamily: "Poppins",
-                fontWeight: "500",
-                color: "#5E6571",
-              }}
-            >
+            <span className={style.maindes}>
               Hello, I'm Rahul Roy, a passionate{" "}
               <span style={{ color: "orangered", fontWeight: "500" }}>
                 Full Stack Developer

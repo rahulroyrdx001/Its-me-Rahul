@@ -6,7 +6,7 @@
 }
 .wrapper{
     height: 100%;
-    width: 60%;
+    width: 70vw;
     color: #5E6571;
     display: flex;
     flex-direction: column;
@@ -14,7 +14,7 @@
     align-items: center;
 }
 .footerr{
-    font-size: 80%;
+    font-size: 0.8vw;
     color: #5E6571;
     
 }
@@ -25,6 +25,71 @@ a{
     width: 40%;
     display: flex;
     justify-content: space-around;
-    font-size: 120%;
+    font-size: 2vw;
     height: auto;
+}
+.mobheading{
+    font-size: 3vw;
+}
+h3{
+    font-size: 1.2vw;
+}
+h2{
+    font-size: 1.3vw;
+}
+
+@media (max-width:320px){
+    .contact{
+        width:100%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .mobheading{
+        font-size: 6vw;
+    }
+    .wrapper{
+        height: 100%;
+        width: 80vw;
+        color: #5E6571;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .footerr{
+        font-size: 2vw;
+        color: #5E6571;
+        
+    }
+    .footerr a{
+        font-size: 2vw;
+    }
+    a{
+        text-decoration: none;
+        font-size: 3vw;
+    }
+    p{
+        font-size: 3vw;
+    }
+    .logos{
+        width: 40%;
+        display: flex;
+        position: relative;
+        top: -20%;
+        justify-content: space-around;
+        font-size: 3.3vw;
+        height: auto;
+    }
+    h3{
+        font-size: 3vw;
+    }
+    h2{
+        font-size: 1.9vw;
+    }
+    .mailtext{
+        position: relative;
+        top: -20%;
+    }
 }

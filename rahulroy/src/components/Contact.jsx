@@ -8,15 +8,18 @@ export default function Contact() {
   return (
     <div className={style.contact}>
       <div className={style.wrapper}>
-        <span style={{fontSize:"1.8rem"}}>CONTACT</span>
-        <h3>
-          Thank you for your valuable time and patience; it's greatly
-          appreciated.
+        <span className={style.mobheading}>CONTACT</span>
+        <h3>Thank you for your valuable time and patience;</h3>
+        <h3 style={{ position: "relative", top: "-5%" }}>
+          it's greatly appreciated.
         </h3>
-        <h2>
+        <h2 style={{ position: "relative", top: "-8%" }}>
           If your values align with my mission and skills, and you'd like to
-          join this journey, please feel free to reach out. Let's make a
-          difference together.
+          join this journey,
+        </h2>
+        <h2 style={{ position: "relative", top: "-15%" }}>
+          {" "}
+          please feel free to reach out. Let's make a difference together.
         </h2>
         <div className={style.logos}>
           <FaGithub></FaGithub>
@@ -24,17 +27,17 @@ export default function Contact() {
           <FaXTwitter></FaXTwitter>
           <AiFillInstagram></AiFillInstagram>
         </div>
-        <p>
+        <p className={style.mailtext}>
           or drop a mail at{" "}
           <a href="mailto:connect.royrahul@gmail.com">
             connect.royrahul@gmail.com{" "}
-            <HiOutlineArrowUpRight style={{ fontSize: "70%" }} />
+            <HiOutlineArrowUpRight style={{ fontSize: "1vw" }} />
           </a>
         </p>
         <p className={style.footerr}>
           website Design and develop by{" "}
           <a href="https://www.linkedin.com/in/rahul-roy-1306/">
-            Rahul Roy <HiOutlineArrowUpRight style={{ fontSize: "70%" }} />
+            Rahul Roy <HiOutlineArrowUpRight />
           </a>
         </p>
       </div>

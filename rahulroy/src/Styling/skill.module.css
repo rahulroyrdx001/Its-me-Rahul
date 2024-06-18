@@ -103,6 +103,9 @@ img{
 .shine{
     z-index: -1;
     color: #808080;
+    font-size: 4vw;
+    font-family: Poppins;
+    font-weight: 600;
     animation: apper linear;
     animation-timeline: view();
     animation-range: entry 0;
@@ -125,5 +128,50 @@ img{
     to{
         opacity: 1;
         scale: 1;
+    }
+}
+@media (max-width:320px){
+    .skill{
+        height: 100vh;
+        width: 320px;
+        
+    }
+    .container{
+        height: 100%;
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        overflow: hidden;
+    }
+    .wrapper{
+        width: 700px;
+        overflow-y: hidden;
+        height: 70vh;
+        background-color: #00040F;
+        overflow: hidden;
+        mask-image: linear-gradient(
+            to right,
+            hsl(0 0% 0% / 0),
+            hsl(0 0% 0% / 1) 10%,
+            hsl(0 0% 0% / 1) 90%,
+            hsl(0 0% 0% / 0)
+          );
+        z-index: -1;
+        animation: apper linear;
+        animation-timeline: view();
+        animation-range: entry 0;
+    }
+    .shine{
+        z-index: -1;
+        color: #808080;
+        font-size: 9vw;
+        transform: translateX(120%);
+        font-family: Poppins;
+        font-weight: 600;
+        animation: apper linear;
+        animation-timeline: view();
+        animation-range: entry 0;
     }
 }

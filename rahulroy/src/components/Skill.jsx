@@ -61,12 +61,7 @@ export default function Skill() {
   return (
     <div className={style.skill}>
       <div className={style.container}>
-        <div
-          className={style.shine}
-          style={{ fontSize: "300%", fontFamily: "Poppins", fontWeight: "600" }}
-        >
-          SKILLS
-        </div>
+        <div className={style.shine}>SKILLS</div>
         <div className={style.wrapper}>
           <div className={style.marquee}>
             <div className={style.marquee1}>

@@ -75,6 +75,25 @@
     text-decoration: none;
     color: #4d4d4d;
 }
+.fullstack{
+    font-size: 1rem;
+}
+.fdev{
+    font-size: 300%;
+    font-family: Poppins;
+    font-weight: 600;
+}
+.mission{
+    font-size: 200%;
+    font-family: Poppins;
+    font-weight: 600;
+}
+.maindes{
+    font-size: 100%;
+    font-family: Poppins;
+    font-weight: 500;
+    color: #5E6571;
+}
 @keyframes apper{
     from{
         opacity: 0;
@@ -84,4 +103,70 @@
         opacity: 1;
         scale: 1;
     }
+}
+@media(max-width:320px){
+    .about{
+        height: 200vh;
+        width: 100%;
+    }
+    .aboutwraper{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .profilebox{
+        width: 110%;
+        height: 50vh;
+        display: flex;
+        transform: translateX(-15px);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(135deg,rgba(255, 255, 255,.3),rgba(255, 255, 255,.1));
+        border-radius: 16px;
+        box-shadow: 0 1px 24px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.22);
+        z-index: -1;
+        animation: apper linear;
+        animation-timeline: view();
+        animation-range: entry 0;
+        
+    }
+    .rahulpic{
+        border-radius: 50%;
+        height: 30vh;
+        
+    }
+    .fdev{
+        font-size: 10.5vw;
+        font-family: Poppins;
+        font-weight: 600;
+    }
+    .descrip{
+        width:90%;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        animation: apper linear;
+        animation-timeline: view();
+        animation-range: entry 0;
+        
+        
+    }
+    .mission{
+        font-size: 7vw;
+        font-family: Poppins;
+        font-weight: 600;
+    }
+    .maindes{
+        font-size: 3vw;
+        font-family: Poppins;
+        font-weight: 500;
+        color: #5E6571;
+    }
+    
 }
