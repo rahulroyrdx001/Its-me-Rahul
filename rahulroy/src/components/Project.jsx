@@ -160,11 +160,12 @@ export default function Project() {
           <div className={style.wraper}>
             <div className={style.projectname}>Tunify - Music App</div>
             <div className={style.projectdes}>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor,
-              distinctio. Quidem, assumenda. Sed harum facilis enim quo quidem
-              ratione ex. Lorem ipsum dolor sit amet, consectetur adipisicing
-              elit. Magnam, at! Aut eveniet assumenda totam nihil commodi
-              architecto possimus iusto consequatur!
+              I created Tunify, a dynamic web-based music platform utilizing
+              React, the MUI library, and REST API integration. Experience
+              seamless music streaming with an intuitive interface that enhances
+              user engagement and accessibility. Tunify offers a personalized
+              listening experience, combining functionality with aesthetic
+              appeal for music enthusiasts
             </div>
             <div className={style.projectlinks}>
               <a>
@@ -180,9 +181,11 @@ export default function Project() {
           <div className={style.wraper}>
             <div className={style.projectname}>Smart Dashboard</div>
             <div className={style.projectdes}>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor,
-              distinctio. Quidem, assumenda. Sed harum facilis enim quo quidem
-              ratione ex.
+              I've created a versatile and highly responsive interactive
+              dashboard using React and MUI library, seamlessly integrated with
+              REST API. Explore its dynamic data visualization and user-friendly
+              interface, designed to elevate user experience and streamline data
+              management tasks effortlessly
             </div>
             <div className={style.projectlinks}>
               <a>
@@ -198,9 +201,11 @@ export default function Project() {
           <div className={style.wraper}>
             <div className={style.projectname}>Task Planner</div>
             <div className={style.projectdes}>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor,
-              distinctio. Quidem, assumenda. Sed harum facilis enim quo quidem
-              ratione ex.
+              I've developed a versatile task mapping system using the React
+              Flow library, enabling seamless visualization and management of
+              multiple tasks. Experience intuitive task mapping with dynamic
+              flow charts and interactive features, designed to optimize
+              productivity and streamline workflow management effortlessly.
             </div>
             <div className={style.projectlinks}>
               <a>

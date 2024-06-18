@@ -8,19 +8,16 @@ import { MdMail } from "react-icons/md";
 import { HiMiniMoon } from "react-icons/hi2";
 import { TbSunFilled } from "react-icons/tb";
 import { RiBox3Fill } from "react-icons/ri";
+import { RxCross2 } from "react-icons/rx";
 
 export default function Home() {
+  // function showSidebar() {
+  //   const sidebar = document.querySelector({});
+  //   sidebar.home.display = "flex";
+  // }
   return (
     <div className={style.home}>
       <div className={style.mynav}>
-        {/* <a>Home</a>
-        <a>About</a>
-        <a>Skills</a>
-        <a>Projects</a>
-        <a>Experience</a>
-        <a>Contact</a> */}
-        {/* <div className={style.rahul}><span style={{fontSize:"2.5rem"}}>&lt;</span> Rahul Roy /<span style={{fontSize:"2.5rem"}}>&gt;</span></div> */}
-
         <div className={style.rahul}>
           <span style={{ fontSize: "1.3rem" }}>&lt;/&gt;</span>rahul roy
         </div>
@@ -38,9 +35,27 @@ export default function Home() {
           <HiMiniMoon className={style.moon} />
           <span className={style.toggel}></span>
         </label>
-        <label style={{ display: "none" }}>
+        <label style={{display:"none"}}>
           <RiBox3Fill />
         </label>
+      </div>
+      <div className={style.mysidenav}>
+        {/* <a>Home</a>
+        <a>About</a>
+        <a>Skills</a>
+        <a>Projects</a>
+        <a>Experience</a>
+        <a>Contact</a> */}
+        {/* <div className={style.rahul}><span style={{fontSize:"2.5rem"}}>&lt;</span> Rahul Roy /<span style={{fontSize:"2.5rem"}}>&gt;</span></div> */}
+
+        <div className={style.sidenavmenu}>
+          <RxCross2 style={{ fontSize: "50px" }} />
+          <HiHome className={style.snavhome} />
+          <IoPerson className={style.snavabout} />
+          <FaDev className={style.snavskill} />
+          <FaReact className={style.snavexp} />
+          <MdMail className={style.snavcontact} />
+        </div>
       </div>
       <div className={style.elementbg}>
         <div className={style.elementbg1}></div>
