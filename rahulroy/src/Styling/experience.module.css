@@ -87,7 +87,7 @@
       bottom: -5px;
     }
   }
-  @media (max-width:320px){
+  @media (max-width:350px){
     .heading{
       width: 100%;
       color: #808080;

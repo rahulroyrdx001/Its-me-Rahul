@@ -130,7 +130,7 @@ img{
         scale: 1;
     }
 }
-@media (max-width:320px){
+@media (max-width:350px){
     .skill{
         height: 100vh;
         width: 320px;

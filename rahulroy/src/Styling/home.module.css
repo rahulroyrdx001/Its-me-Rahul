@@ -328,7 +328,7 @@ input:checked~.toggel{
   75%{ left:50px;top: 100px;}
   100%{ left:0px;top: 0px;}
 }
-@media (max-width:320px){
+@media (max-width:350px){
   .navmenu{
     display: none;   
 }
