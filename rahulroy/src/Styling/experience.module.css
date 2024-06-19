@@ -81,13 +81,13 @@
   }
   
   /* Setting the top and bottom to "-5px" because earlier it was out of a pixel in mobile devices */
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 430px) {
     .card:nth-child(odd)::before {
       top: -5px;
       bottom: -5px;
     }
   }
-  @media (max-width:350px){
+  @media (max-width:400px){
     .heading{
       width: 100%;
       color: #808080;

@@ -130,7 +130,7 @@ img{
         scale: 1;
     }
 }
-@media (max-width:350px){
+@media (max-width:400px){
     .skill{
         height: 100vh;
         width: 320px;
@@ -138,11 +138,11 @@ img{
     }
     .container{
         height: 100%;
-        width: 320px;
+        width: 360px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        align-items: flex-start;
+        align-items: center;
         overflow: hidden;
     }
     .wrapper{
@@ -167,7 +167,7 @@ img{
         z-index: -1;
         color: #808080;
         font-size: 9vw;
-        transform: translateX(120%);
+        transform: translateX(0%);
         font-family: Poppins;
         font-weight: 600;
         animation: apper linear;
